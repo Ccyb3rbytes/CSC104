@@ -3,6 +3,7 @@ body {
   font-family: Arial, sans-serif; /* Set font family for the body text */
   background-image: url(Images/bg.png); /* Set background image */
   background-repeat: repeat-y; /* Repeat the background image vertically */
+  background-size; auto;
   color: #3f3f3f; /* Set the text color */
   margin: 40px; /* Add margin around the body */
   text-align: center; /* Center-align text in the body */
