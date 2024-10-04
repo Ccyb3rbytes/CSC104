@@ -8,8 +8,8 @@ body {
   text-align: center; /* Center-align text in the body */
   }
   section {
-    padding: 5px;
-    margin: 5px;
+    padding: 20px;
+    margin: 20px;
   }
   h3 {
     background-color: #c93bfd; /* changes the background color of h3 */
