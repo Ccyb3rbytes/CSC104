@@ -2,7 +2,6 @@
 body {
   font-family: Arial, sans-serif; /* Set font family for the body text */
   background-image: url(Images/bg.png); /* Set background image */
-  background-size: 100%; /* Scale the background image to cover the whole area */
   background-repeat: repeat-y; /* Repeat the background image vertically */
   color: #3f3f3f; /* Set the text color */
   margin: 40px; /* Add margin around the body */
