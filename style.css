@@ -1,0 +1,180 @@
+/* Main page content styling ------------------------------------------------------------------------------*/
+body {
+  font-family: Arial, sans-serif; /* Set font family for the body text */
+  background-image: url(Images/bg.png); /* Set background image */
+  background-size: 100%; /* Scale the background image to cover the whole area */
+  background-repeat: repeat-y; /* Repeat the background image vertically */
+  color: #3f3f3f; /* Set the text color */
+  margin: 40px; /* Add margin around the body */
+  text-align: center; /* Center-align text in the body */
+  }
+  section {
+    padding: 5px;
+    margin: 5px;
+  }
+  h3 {
+    background-color: #c93bfd; /* changes the background color of h3 */
+    padding: 20px; /* adds padding */
+    border-color: #f9f9f9; /* changes border color to white */
+    border-style: double; /* adds a double border around the box */
+    border-width: 10px; /* changes the thickness of the border */
+    color: #f9f9f9; /* changes the text color */
+    width: 75%; /* changes the width of the h3 box */ 
+    margin: 0 auto; /* centers the h3 box horizontally */
+    text-align: center; /* centers the text within the h3 */
+}
+
+
+/* Table styling */
+table {
+  width: 80%; /* Set table width to 80% of the parent container */
+  border-collapse: collapse; /* Collapse borders into a single border */
+  margin: 20px auto; /* Center table with auto margins */
+  background-color: #fff; /* Set background color to white */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add slight shadow for depth */
+}
+
+/* Defines the table header as in "header, body, footer" */
+thead {
+  background-color: fuchsia; /* Set header background color to fuchsia */
+  color: white; /* Set text color to white for table headers */
+}
+
+/* th=table header, td=table content */
+th, td {
+  padding: 10px; /* Add padding inside table cells */
+  border: 1px solid #ddd; /* Add a light gray border around cells */
+  text-align: left; /* Align text to the left in cells */
+  vertical-align: top; /* Align text to the top of the cells */
+}
+h2 {
+  background-color: #1F51FF; /* changes the background color of h2 to blue */
+  padding: 20px; /* adds padding */
+  border-color: #f9f9f9; /* changes border color to white */
+  border-style: double; /* adds a double border around the box */
+  border-width: 10px; /* changes the thickness of the border*/
+  color: #f9f9f9; /* changes the text for h2 */
+  width: 75%;/* changes the width of the h2 box */ 
+  justify-content: center;
+  margin: 0 auto; /* centers the h3 box horizontally */
+  text-align: center; /* centers the text within the h3 */
+  }
+
+
+/* #Navbar styling------------------------------------------------------------------- */
+#navbar {
+  width: 80%; /* Set navbar width to 80% of the parent container */
+  margin: auto; /* Center navbar using auto margins */
+  background-color: fuchsia; /* Sets navbar background color to fuchsia */
+  border-radius: 8px; /* Round the corners of the navbar */
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.3); /* Add shadow for depth */
+  padding: 15px 0; /* Add vertical padding to navbar */
+  display: flex; /* Use flexbox layout for navbar items */
+  justify-content: space-between; /* Distribute space between items */
+  align-items: center; /* Align items vertically in the center */
+}
+
+#navbar h4 {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  text-align: left; /* Aligns the title text to the left */
+  color: white; /* Sets the title text color to white */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+ 
+}
+
+#navbar ul {
+  list-style: none; /* Removes the bullet points from the list */
+  margin: 5px; /* Set margin around the unordered list */
+  padding: 5px; /* Set padding around the unordered list */
+  display: flex; /* Use flexbox layout for list items */
+}
+
+#navbar ul li a {
+  color: white; /* Set default text color for links */
+  font-weight: bold; /* Make link text bold */
+  font-size: 1.2em; /* Set font size for links */
+  padding: 10px 20px; /* Add padding inside links */
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+  background: rgba(255, 255, 255, 0.1); /* Set default background for links */
+  border-radius: 6px; /* Round the corners of the links */
+}
+
+/* When you hover over the buttons they transition*/
+#navbar ul li a:hover {
+  background-color: white; /* Set background color to white on hover */
+  color: #8A00C4; /* Change text color on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+  transform: scale(1.1); /* Slightly scale the link on hover */
+}
+/* Active link styling */
+#navbar ul li a.active {
+  background-color: white; /* Set background color to white for active link */
+  color: #1F51FF; /* Set text color to blue for active link */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Add shadow for active link */
+}
+
+/* Card Container style -------------------------------------------------------------*/
+.card-container {
+  width: 80%;
+  margin: 0 auto; /* centers the h3 box horizontally */
+  text-align: center; /* centers the text within the h3 */
+  display: flex; /* Use flexbox for the card container */
+  flex-flow: wrap; /* Allow items to wrap onto the next line */
+  justify-content: space-between; /* Distribute space between cards */
+  gap: 10px; /* Set gap between cards */
+  margin-top: 20px; /* Add top margin to the card container */
+  padding: 0 20px; /* Add horizontal padding to the container */
+}
+
+/* Individual card styling */
+.card {
+  background: linear-gradient(135deg, #f9f9f9, #f0f0f0); /* Set gradient background for the card */
+  border: 2px solid #8A00C4; /* Set border color for the card */
+  border-radius: 10px; /* Round the corners of the card */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+  margin: 15px; /* Add margin around the card */
+  padding: 20px; /* Add padding inside the card */
+  width: calc(33.333% - 60px); /* Set width of the card with spacing adjustments */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  text-align: center; /* Center-align text inside the card */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Figure and Figcaption Styling */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* Adjust as needed */
+}
+
+.card {
+  border: 1px solid #ccc; /* Or any other border styling */
+  border-radius: 4px; /* Optional: add some rounding to corners */
+  overflow: hidden; /* Prevents content from overflowing */
+  padding: 0; /* Remove padding from card */
+}
+.card:hover {
+  transform: scale(1.05); /* Slightly increase the size on hover */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Add a stronger shadow on hover */
+  cursor: pointer; /* Change cursor to indicate interactivity */
+}
+
+
+figure {
+  margin: 0; /* Remove default margin from figure */
+  padding: 0; /* Remove default padding from figure */
+}
+
+figcaption {
+  font-weight: bold; /* Optional: style caption */
+  padding: 4px; /* Minimal padding to ensure text doesn't touch edges */
+  background-color: #f0f0f0; /* Optional: background for the caption */
+  text-align: center; /* Center the caption text */
+}
+
+.card img {
+  display: block; /* Ensures no extra space below the image */
+  width: 100%; /* Makes image responsive */
+  height: auto; /* Maintains aspect ratio */
+}

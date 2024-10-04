@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commonly used HTML & CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Start Navigation Bar -->
+    <nav id="navbar">
+        <h4>HTML/CSS References</h4> 
+        <ul>
+            <li><a href="index.html" class="active">Commonly used HTML & CSS</a>
+            <li><a href="Notes.html">Notes</a></li>
+        </ul>
+    </nav>
+<!-- End Navigation Bar -->
+<!-- Start HTML section -->
+    <section>
+        <h2>HTML Elements</h2> 
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="3">An HTML element represents a part of a webpage, such as a paragraph, heading, link, or image. It defines the structure and content of the webpage using opening and closing tags (e.g., &1t;;p&gt;&1t;/p&gt; for a paragraph).</th>
+                </tr>
+                <tr>
+                    <th>Category</th>
+                    <th>Elements</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Document Structure</td>
+                    <td>&lt;!DOCTYPE&gt;, &lt;html&gt;, &lt;head&gt;, &lt;title&gt;, &lt;body&gt;</td>
+                    <td>Defines the basic structure of an HTML document.</td>
+                </tr>
+                <tr>
+                    <td>Text Formatting</td>
+                    <td>&lt;p&gt;, &lt;br&gt;, &lt;hr&gt;, &lt;b&gt;, &lt;cite&gt;, &lt;code&gt;, &lt;em&gt;, &lt;i&gt;, &lt;strong&gt;, &lt;u&gt;</td>
+                    <td>Formats and styles text content.</td>
+                </tr>
+                <tr>
+                    <td>Images</td>
+                    <td>&lt;img&gt;, &lt;figure&gt;, &lt;figcaption&gt;</td>
+                    <td>Embeds and captions images or self-contained media.</td>
+                </tr>
+                <tr>
+                    <td>Lists</td>
+                    <td>&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;</td>
+                    <td>Creates ordered and unordered lists.</td>
+                </tr>
+                <tr>
+                    <td>Tables</td>
+                    <td>&lt;table&gt;, &lt;th&gt;, &lt;tr&gt;, &lt;td&gt;</td>
+                    <td>Creates tables, headers, rows, and cells.</td>
+                </tr>
+                <tr>
+                    <td>Layout</td>
+                    <td>&lt;div&gt;, &lt;span&gt;, &lt;header&gt;, &lt;footer&gt;, &lt;main&gt;, &lt;section&gt;, &lt;article&gt;, &lt;aside&gt;</td>
+                    <td>Structures page layout and sections.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>HTML Attributes</h2> 
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">An HTML Attribute provides additional information about an HTML element. Attributes are included inside the opening tag and usually come in name-value pairs ie: (class="example") helping define properties like ID's classes, or links</th>
+                </tr>
+                <tr>
+                    <th>Usage</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&lt;div id="header"&gt;, &lt;p class="intro"&gt;</td>
+                    <td>Specifies a unique ID or class for styling or JavaScript targeting.</td>
+                </tr>
+                <tr>
+                    <td>&lt;img src="image.jpg" alt="description"&gt;</td>
+                    <td>Specifies the source of an image and alternative text for accessibility.</td>
+                </tr>
+                <tr>
+                    <td>&lt;a href="https://example.com"&gt;</td>
+                    <td>Specifies the URL of a link destination.</td>
+                </tr>
+                <tr>
+                    <td>&lt;p style="color: red;"&gt;</td>
+                    <td>Specifies inline CSS styles directly in an HTML element.</td>
+                </tr>
+                <tr>
+                    <td>&lt;p title="Hello"&gt;</td>
+                    <td>Provides extra information about an element (appears as a tooltip).</td>
+                </tr>
+                <tr>
+                    <td>&lt;a href="https://example.com" target="_blank"&gt;</td>
+                    <td>Specifies where to open a linked document (e.g., new tab).</td>
+                </tr>
+                <tr>
+                    <td>&lt;input type="text" placeholder="Enter your name"&gt;</td>
+                    <td>Specifies a short hint displayed in an input field.</td>
+                </tr>
+                <tr>
+                    <td>&lt;button disabled&gt;Submit&lt;/button&gt;</td>
+                    <td>Disables an element, making it unclickable.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+<!-- End HTML section -->
+<!-- Start css section -->
+    <section id="css-elements">
+        <h2>CSS Properties</h2> 
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">CSS properties control the appearance and layout of HTML elements. They define characteristics like color, font size, margin, padding, and border styles, allowing you to customize how a webpage looks.</th>
+                </tr>
+                <tr>
+                    <th>Usage</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>color: red;</td>
+                    <td>Sets the color of text.</td>
+                </tr>
+                <tr>
+                    <td>background-color: blue;</td>
+                    <td>Sets the background color of an element.</td>
+                </tr>
+                <tr>
+                    <td>font-size: 16px;</td>
+                    <td>Sets the size of the font.</td>
+                </tr>
+                <tr>
+                    <td>margin: 20px;</td>
+                    <td>Sets the margin area outside an element.</td>
+                </tr>
+                <tr>
+                    <td>padding: 10px;</td>
+                    <td>Sets the padding area inside an element.</td>
+                </tr>
+                <tr>
+                    <td>border: 1px solid black;</td>
+                    <td>Sets the border around an element.</td>
+                </tr>
+                <tr>
+                    <td>text-align: center;</td>
+                    <td>Sets the horizontal alignment of text.</td>
+                </tr>
+                <tr>
+                    <td>display: block;</td>
+                    <td>Specifies the display behavior of an element.</td>
+                </tr>
+                <tr>
+                    <td>position: absolute;</td>
+                    <td>Sets the positioning method for an element.</td>
+                </tr>
+                <tr>
+                    <td>opacity: 0.5;</td>
+                    <td>Sets the transparency level of an element.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>CSS Selectors</h2> 
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2"> CSS selectors are patterns used to target and style specific HTML elements. They can select elements by name, class, ID, or their relationship to other elements, making it easier to apply consistent styling across a webpage.</th>
+                </tr>
+                <tr>
+                    <th>Category</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Simple Selectors</td>
+                    <td>Select elements based on name, id, or class.</td>
+                </tr>
+                <tr>
+                    <td>Combinator Selectors</td>
+                    <td>Select elements based on a specific relationship between them.</td>
+                </tr>
+                <tr>
+                    <td>Pseudo-class Selectors</td>
+                    <td>Select elements based on a certain state.</td>
+                </tr>
+                <tr>
+                    <td>Pseudo-elements</td>
+                    <td>Select and style a part of an element.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+<!-- End css section -->
+</body>
+</html>
